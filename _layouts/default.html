@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}YiBing's random Thoughts{% endif %}">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="/css/purecss-base-0.2.0.min.css">
+  <!-- syntax highlighting CSS -->
+  <link rel="stylesheet" href="/css/pygments.css">
+  <!--<link rel="stylesheet" href="/css/main.css">-->
+  <link rel="stylesheet/less" href="/css/main.less">
+
+  <link rel="canonical" href="http://blog.yibing.me{{ page.url }}">
+  <script src="/js/modernizr-2.6.2.min.js"></script>
+  <script src="/js/less-1.3.3.min.js"></script>
+</head>
+<body>
+  <div class="page-container">
+  	<header class="top clearfix" role="banner">
+      <h1><a href="/"><img class="avatar" alt="lamengao" src="/images/lamengao.big.png" />易冰的网络日志</a></h1>
+      <!--<h1><a href="/">易冰的网络日志</a></h1>-->
+      <nav role="navigation">
+        <a href="/">home</a>
+        <a href="http://yibing.me">about</a>
+      </nav>
+  	</header>
+
+  	<div class="page clearfix">
+      <section class="content" role="main">
+    	{{ content }}
+      </section>
+    </div>
+  </div>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="/js/jquery.fittext.js"></script>
+  <script>
+    //jQuery("header.top h1 a").fitText(76.5/36, {minFontSize: '18px', maxFontSize: '36px'});
+    //jQuery("nav a").fitText(25.8/36, {minFontSize: '18px', maxFontSize: '36px'});
+
+    //jQuery("section.excerpt").fitText(2.5, {minFontSize: '13px'});
+    jQuery("article h1").fitText(1.365, {minFontSize: '15px'});
+    jQuery("section.entry").width(function() {
+      var w = $(this).width() / $(window).width();
+      return w*100 + '%';
+    }).fitText(163.8/54, {minFontSize: '13px'});
+    /*
+    */
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*.swp
+*~
+
+_site/*
+
+gh-pages/
+
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+
+.sass-cache

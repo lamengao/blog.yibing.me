@@ -1,0 +1,4 @@
+name: YiBing's Blog
+permalink: /:title
+pygments: true
+markdown: rdiscount
