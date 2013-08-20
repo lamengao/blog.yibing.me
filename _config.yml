@@ -1,4 +1,5 @@
+url: http://blog.yibing.me
 name: YiBing's Blog
-permalink: /:title
+permalink: pretty
 pygments: true
 markdown: rdiscount
