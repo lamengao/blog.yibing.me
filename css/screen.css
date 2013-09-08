@@ -6,43 +6,32 @@
 /*
 /*****************************************************************************/
 /* Image replacement */
-/* line 47, ../sass/screen.scss */
 .ir { border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 56, ../sass/screen.scss */
 .hidden { display: none !important; visibility: hidden; }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 62, ../sass/screen.scss */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
-/* line 72, ../sass/screen.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 84, ../sass/screen.scss */
 .invisible { visibility: hidden; }
 
 /* Contain floats: h5bp.com/q */
-/* line 89, ../sass/screen.scss */
 .clearfix { *zoom: 1; }
 
-/* line 92, ../sass/screen.scss */
 .clearfix:before { content: ""; display: table; }
 
-/* line 96, ../sass/screen.scss */
 .clearfix:after { content: ""; display: table; clear: both; }
 
 /* Links */
-/* line 103, ../sass/screen.scss */
 a { color: #ed796b; text-decoration: none; }
 
-/* line 107, ../sass/screen.scss */
 a:visited, a:active { color: #ed796b; }
 
-/* line 110, ../sass/screen.scss */
 a:hover { color: #ed796b; text-decoration: underline; }
 
 /*****************************************************************************/
@@ -50,70 +39,43 @@ a:hover { color: #ed796b; text-decoration: underline; }
 /* Defaul
 /*
 /*****************************************************************************/
-/* line 120, ../sass/screen.scss */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 123, ../sass/screen.scss */
 html { font-size: 20px; }
 
-/* line 126, ../sass/screen.scss */
 body { font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, 'Hiragino Sans GB', sans-serif; /*font-family:"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";*/ /*font-family:"Microsoft YaHei","微软雅黑","Hiragino Sans GB","Hiragino Sans GB W3",tahoma,arial,simsun,"宋体";*/ background-color: #f8f8f8; }
 
-/* line 132, ../sass/screen.scss */
 .page-container { padding-bottom: 1em; width: 100%; margin: 0 auto; }
 
-/* line 137, ../sass/screen.scss */
 header.top { background-color: #ed4732; /*border-bottom: 1px solid #f1f1f1;*/ text-align: center; position: relative; -webkit-box-shadow: 0px 0px 5px #333333; -moz-box-shadow: 0px 0px 5px #333333; box-shadow: 0px 0px 5px #333333; }
-/* line 143, ../sass/screen.scss */
 header.top a { display: block; background-color: #ed4732; font-weight: bold; font-size: 1.8rem; line-height: 2.22222em; color: #fff; text-decoration: none; text-shadow: 0 1px 0 rgba(3, 27, 47, 0.5); }
-/* line 30, ../sass/screen.scss */
 header.top a:hover { background: #c22511; -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
-/* line 155, ../sass/screen.scss */
 header.top h1 { margin: 0 auto; width: 60%; color: #fff; }
-/* line 160, ../sass/screen.scss */
 header.top nav { width: 100%; position: absolute; top: 0; }
-/* line 164, ../sass/screen.scss */
 header.top nav a { width: 20%; position: absolute; }
-/* line 168, ../sass/screen.scss */
 header.top nav a:first-child { left: 0; }
-/* line 171, ../sass/screen.scss */
 header.top nav a:last-child { right: 0; }
 
-/* line 176, ../sass/screen.scss */
 img.avatar { position: absolute; left: 50%; top: 0; margin-left: -5.5em; height: 100%; z-index: 10; }
 
-/* line 184, ../sass/screen.scss */
 img.avatar:hover { /*height: 150px;*/ /*width:120px;*/ }
 
 /*  Home  */
-/* line 194, ../sass/screen.scss */
 .home h1 { font-size: 4em; font-size: 51/9vw; margin: 0; width: 80%; float: right; /*padding: 0.5em 0;*/ line-height: 2.23em; }
-/* line 203, ../sass/screen.scss */
 .home article { position: relative; width: 100%; }
-/* line 206, ../sass/screen.scss */
 .home article header { height: 100%; overflow: hidden; }
-/* line 211, ../sass/screen.scss */
 .home article a { display: block; /*display:inline;*/ text-decoration: none; padding-left: 0.2em; color: #555; }
-/* line 219, ../sass/screen.scss */
 .home article:hover { background-color: #ed796b; }
-/* line 221, ../sass/screen.scss */
 .home article:hover a, .home article:hover time { color: #fff; }
-/* line 224, ../sass/screen.scss */
 .home article:hover time { background-color: #f3a298; }
 
-/* line 229, ../sass/screen.scss */
 time { color: #aaa; font-size: 1.5em; /*display: -webkit-flex;*/ /*display: flex;*/ }
 
-/* line 237, ../sass/screen.scss */
 .home time { width: 20%; text-align: center; position: absolute; top: 0; left: 0; margin: 0; height: 100%; }
-/* line 246, ../sass/screen.scss */
 .home time div { position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; height: 1em; }
 
-/* line 256, ../sass/screen.scss */
 .excerpt { font-size: 2em; color: #444444; }
-/* line 259, ../sass/screen.scss */
 .excerpt p { margin: 0; }
-/* line 262, ../sass/screen.scss */
 .excerpt code { font-size: 0.54em; }
 
 /*****************************************************************************/
@@ -126,60 +88,34 @@ time { color: #aaa; font-size: 1.5em; /*display: -webkit-flex;*/ /*display: flex
 /* Posts
 /*
 /*****************************************************************************/
-/* line 280, ../sass/screen.scss */
 header.post { text-align: center; width: 85%; margin: 0 auto; margin-top: 3.5em; }
-/* line 283, ../sass/screen.scss */
 header.post h1 { font-size: 2.8em; font-size: 6.25vw; margin: 0; }
-/* line 287, ../sass/screen.scss */
 header.post time { display: block; margin: 2em 0; }
 
-/* line 292, ../sass/screen.scss */
 .entry { margin-top: 1.5em; margin: 0 auto; color: #444444; font-size: 2.8125vw; width: 84.375%; }
-/* line 298, ../sass/screen.scss */
 .entry code { font-size: 0.54em; }
 
-/* line 302, ../sass/screen.scss */
 .highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code { background: none repeat scroll 0 0 #333333; border-radius: 5px 5px 5px 5px; box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.5); color: #FFFFFF; }
 
-/* line 308, ../sass/screen.scss */
 .highlight { overflow: auto; padding: 10px 0; width: 100%; }
 
-/* line 313, ../sass/screen.scss */
 pre, code { display: inline-block; font-family: Menlo,Consolas,"Courier New",Courier,"Liberation Mono",monospace; font-size: 1em; line-height: 1.8em; margin: 0; padding: 0 0.5em; white-space: pre; }
 
-@media only screen and (max-width: 960px) { /* line 324, ../sass/screen.scss */
-  header.top a { font-size: 24px; }
-  /* line 327, ../sass/screen.scss */
+@media only screen and (max-width: 960px) { header.top a { font-size: 24px; }
   time { font-size: 1em; }
-  /* line 330, ../sass/screen.scss */
   header.post { margin-top: 2em; } }
-@media only screen and (max-width: 760px) { /* line 335, ../sass/screen.scss */
-  header.top a { font-size: 20px; }
-  /* line 338, ../sass/screen.scss */
+@media only screen and (max-width: 760px) { header.top a { font-size: 20px; }
   time { font-size: 0.8em; } }
-@media only screen and (max-width: 480px) { /* line 343, ../sass/screen.scss */
-  time { font-size: 0.6em; }
-  /* line 346, ../sass/screen.scss */
+@media only screen and (max-width: 480px) { time { font-size: 0.6em; }
   header.post { margin-top: 1.5em; }
-  /* line 350, ../sass/screen.scss */
   header.top a { font-size: 18px; text-align: left; padding-left: 20px; }
-  /* line 355, ../sass/screen.scss */
   header.top h1 { width: 100%; }
-  /* line 358, ../sass/screen.scss */
   header.top nav { width: 100%; position: relative; }
-  /* line 361, ../sass/screen.scss */
   header.top nav a { width: 30%; position: relative; float: left; }
-  /* line 368, ../sass/screen.scss */
   img.avatar { display: none; }
-  /* line 372, ../sass/screen.scss */
   .home time { position: relative; top: -8px; left: auto; float: right; right: 10px; height: auto; padding-top: 0; text-align: left; width: auto; }
-  /* line 382, ../sass/screen.scss */
   .home time div { position: relative; }
-  /* line 386, ../sass/screen.scss */
   .home h1 { width: 100%; }
-  /* line 388, ../sass/screen.scss */
   .home h1 a { padding-left: 20px; }
-  /* line 393, ../sass/screen.scss */
   header.post { text-align: left; width: 100%; padding: 0 20px; }
-  /* line 398, ../sass/screen.scss */
   .entry { width: 100% !important; padding: 0 20px; margin: 0; } }
