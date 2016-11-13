@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "新 blog 第一篇"
-description: "wahahhahaah"
-permalink: /1/
+title:  "关于这个 blog"
+permalink: /about/
 ---
 
 这是我的新 blog ，使用 [Jekyll](http://jekyllrb.com/) 创建，托管于 [github](https://github.com/lamengao/blog.yibing.me) 。如你所见，现在的设计还很简单，因为在有足够的内容之前，一切多余的功能都是浪费。
