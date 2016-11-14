@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "关于这个 blog"
+description: '关于易冰的网络日志'
 permalink: /about/
 ---
 
