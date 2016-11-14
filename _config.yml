@@ -3,7 +3,7 @@ enforce_ssl: blog.yibing.me
 name: YiBing's Blog
 permalink: pretty
 highlighter: rouge
-markdown: rdiscount
+markdown: kramdown
 
 # Assets
 #
