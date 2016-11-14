@@ -4,7 +4,7 @@
 
 $bodybg: #f8f8f8;
 $htmlsize: 16px;
-$headersize: 6;
+$headersize: 6.25; /* unit vw */
 $pagewidth: 100%;
 $headerlightbg: #ED796B;
 /*$headerbg: #E3252B;*/
@@ -13,7 +13,7 @@ $linkcolor: #ED796B;
 $headerlinkheight: 2.222222em;
 
 $titlefontsize: 6.25vw;
-$entryfontsize: 2.8125vw;
+$entryfontsize: 2.8125; /* unit vw */
 $entrywidth: 30em;
 $entrywidth: 84.375%;
 $entrycolor: #444;
@@ -143,9 +143,9 @@ header.top{
   box-shadow: 0px 0px 5px #333333;
   /*font-size: 36px;*/
   font-size: 3vw;
-  @media only screen and (max-width: 960px) {
-    font-size: 1.8rem;
-  }
+  /*@media only screen and (max-width: 1440px) {
+    font-size: 2.22rem;
+  }*/
   a {
     display: block;
     background-color: $headerbg;
@@ -290,24 +290,34 @@ time {
 /*****************************************************************************/
 header.post {
   text-align: center;
-  @include centerWidthAndMargintop(85%);
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 1em;
   h1 {
     @include title-font-size;
     margin:0;
   }
   time {
     display: block;
-    margin: 2em 0;
+    margin: 1em 0 2em 0;
   }
 }
 .entry {
   margin-top:1.5em;
   margin:0 auto;
   color: $entrycolor;
-  font-size: $entryfontsize;
+  font-size: #{$entryfontsize}vw;
   width: $entrywidth;
   code {
     font-size: $entrycodefontsize;
+  }
+  @media only screen and (max-width: (14*100/$entryfontsize)+'px') {
+    font-size: 14px;
+  }
+  @media only screen and (max-width: 480px) {
+    width: 100% !important;
+    padding: 0 20px;
+    margin: 0;
   }
 }
 .highlight, p > pre, p > code, p > nobr > code, li > code, h5 > code, .note > code {
@@ -331,15 +341,7 @@ pre, code {
     white-space: pre;
 }
 
-@media only screen and (max-width: 960px) {
-  header.post {
-    margin-top: 2em;
-  }
-}
 @media only screen and (max-width: 480px) {
-  header.post {
-    margin-top: 1.5em;
-  }
   header.top {
     a {
       font-size: 18px;
@@ -388,10 +390,5 @@ pre, code {
     text-align: left;
     width: 100%;
     padding: 0 20px;
-  }
-  .entry {
-    width: 100% !important;
-    padding: 0 20px;
-    margin: 0;
   }
 }

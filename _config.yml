@@ -1,4 +1,5 @@
-url: http://blog.yibing.me
+url: https://blog.yibing.me
+enforce_ssl: blog.yibing.me
 name: YiBing's Blog
 permalink: pretty
 highlighter: rouge
